@@ -3,8 +3,7 @@
     height: 100%;
     width: 100%;
     z-index: 1;
-    float: left;
-    position: absolute;
+    position: fixed;
 
 
 }
@@ -14,14 +13,32 @@
     opacity: 50;
     height: 100%;
     width: 100%;
-    float: left;
-    position: absolute;
+    position: fixed;
     opacity: 100%;
+    transition: opacity 5s;
 }
 
 
 #buttonmain {
-    position: absolute
-    z-index: 3
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    
+}
+
+#divbutton {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 20%;
+    height: 100%;
+    z-index: 4;
+    position: fixed;
+}
+
+#divcontent {
+    margin: auto;
     
 }
